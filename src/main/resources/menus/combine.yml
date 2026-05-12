@@ -1,0 +1,56 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                       CyayoRune - Menu                                       |
+# |                                       (Sistem Combine)                                       |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+menu:
+  title: "            <gradient:#FF512F:#DD2476>🔥 RUNE COMBINE 🔥</gradient>"
+  size: 45
+  
+  filler:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+    
+  preview-partial:
+    material: ORANGE_STAINED_GLASS_PANE
+    name: "<gold>⚠️ Menunggu Bahan ⚠️</gold>"
+    lore:
+      - "<gray>Masukkan 4 Rune yang sama"
+      - "<gray>untuk melihat hasil combine."
+
+  preview:
+    material: LIME_STAINED_GLASS_PANE
+    name: "<gradient:#FF512F:#DD2476><b>KLIK UNTUK COMBINE</b></gradient>"
+    lore:
+      - " "
+      - "<gray>Success Rate: <green>{success_rate}%</green> <dark_gray>(+{bonus_rate}%)</dark_gray>"
+      - "<gray>Biaya: <yellow>{price} {currency}</yellow>"
+      - " "
+      - "<yellow>Klik untuk memproses!</yellow>"
+
+  slots:
+    # 4 slot input
+    inputs: [19, 20, 21, 22]
+    result: 25
+    
+    placeholders:
+      input:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "<gradient:#FF512F:#DD2476>🌀 Rune Input 🌀</gradient>"
+        lore:
+          - "<gray>Letakkan Rune yang sama"
+          - "<gray>di keempat slot ini."
+      result-empty:
+        material: RED_STAINED_GLASS_PANE
+        name: "<red>❌ Masukkan Bahan ❌</red>"
+        lore:
+          - "<gray>Slot ini akan berubah jika"
+          - "<gray>bahan sudah lengkap."
+      white-scroll:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: "<aqua>📜 White Scroll Slot 📜</aqua>"
+        lore:
+          - "<gray>Letakkan White Scroll di sini"
+          - "<gray>untuk mendapatkan <green>100%</green> sukses."

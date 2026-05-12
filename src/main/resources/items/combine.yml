@@ -1,0 +1,180 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                       CyayoRune - Items                                      |
+# |                                     (Combination Recipes)                                    |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+# Kombinasi digunakan untuk menggabungkan 4 item menjadi 1 item tingkat tinggi.
+
+# ==========================================
+#          DAFTAR RESEP KOMBINASI
+# ==========================================
+recipes:
+
+  # ------------------------------------------
+  # Luck Rune
+  # ------------------------------------------
+  luck-rune-i-to-ii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_I
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_II
+    success-rate: 90.0
+    price: 1000
+    currency: "gins"
+
+  luck-rune-ii-to-iii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_II
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_III
+    success-rate: 70.0
+    price: 2000
+    currency: "gins"
+
+  luck-rune-iii-to-iv:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_III
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_III
+    success-rate: 50.0
+    price: 3000
+    currency: "gins"
+
+  # ------------------------------------------
+  # Strength Rune
+  # ------------------------------------------
+  strength-rune-i-to-ii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_I
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_II
+    success-rate: 90.0
+    price: 1000
+    currency: "gins"
+
+  strength-rune-ii-to-iii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_II
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_III
+    success-rate: 70.0
+    price: 2000
+    currency: "gins"
+
+  strength-rune-iii-to-iv:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_III
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_III
+    success-rate: 50.0
+    price: 3000
+    currency: "gins"
+
+  # ------------------------------------------
+  # Attack Damage Rune
+  # ------------------------------------------
+  attack-damage-i-to-ii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_I
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_II
+    success-rate: 90.0
+    price: 1000
+    currency: "gins"
+
+  attack-damage-ii-to-iii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_II
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_III
+    success-rate: 70.0
+    price: 2000
+    currency: "gins"
+
+  attack-damage-iii-to-iv:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_III
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_III
+    success-rate: 50.0
+    price: 3000
+    currency: "gins"
+
+  # ------------------------------------------
+  # Attack Speed Rune
+  # ------------------------------------------
+  attack-speed-i-to-ii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_I
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_II
+    success-rate: 90.0
+    price: 1000
+    currency: "gins"
+
+  attack-speed-ii-to-iii:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_II
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_III
+    success-rate: 70.0
+    price: 2000
+    currency: "gins"
+
+  attack-speed-iii-to-iv:
+    input:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_III
+    result:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_III
+    success-rate: 50.0
+    price: 3000
+    currency: "gins"

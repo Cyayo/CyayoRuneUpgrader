@@ -1,0 +1,50 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                       CyayoRune - Config                                     |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+# ==========================================
+#              PENGATURAN UMUM
+# ==========================================
+settings:
+  # Aktifkan pesan debug di konsol untuk troubleshooting
+  debug: false
+  
+  # Default Success Rate (0-100) jika tidak diatur di recipe
+  default-success-rate: 100.0
+  
+  # ID Mata Uang default dari ExcellentEconomy
+  default-currency: "gins"
+
+# ==========================================
+#           FITUR PROTECTION ITEM
+# ==========================================
+# Sound settings (using Spigot Sound enum names)
+sounds:
+  click: UI_BUTTON_CLICK
+  success: ENTITY_PLAYER_LEVELUP
+  failure: ENTITY_VILLAGER_NO
+
+# ==========================================
+#           WHITE SCROLL SETTINGS
+# ==========================================
+# Item yang digunakan sebagai White Scroll (MMOItems)
+# Jika dipasang di GUI, success rate akan menjadi 100%.
+white-scroll:
+  type: "ENCHANT"
+  id: "MAGIC_JELLY"
+
+# ==========================================
+#           PENGATURAN INTEGRASI
+# ==========================================
+# Pengaturan Integrasi
+integrations:
+  # Dukungan untuk MMOItems (Wajib untuk sistem Rune)
+  mmoitems: true
+  
+  # Dukungan untuk ExcellentEconomy (Wajib untuk sistem harga)
+  excellenteconomy: true
+  
+  # Dukungan untuk PlaceholderAPI
+  placeholderapi: true

@@ -1,0 +1,74 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                       CyayoRune - Menu                                       |
+# |                                       (Sistem Enhance)                                       |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+menu:
+  # ==========================================
+  #           PENGATURAN DASAR
+  # ==========================================
+  title: "            <gradient:#00B4DB:#0083B0>✨ RUNE ENHANCE ✨</gradient>"
+  size: 27
+  
+  # Item pengisi slot kosong
+  filler:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+    
+  # Preview saat slot belum lengkap
+  preview-partial:
+    material: ORANGE_STAINED_GLASS_PANE
+    name: "<gold>⚠️ Menunggu Bahan ⚠️</gold>"
+    lore:
+      - "<gray>Masukkan Rune dan Material"
+      - "<gray>untuk melihat hasil."
+
+  # Preview saat siap diklik
+  preview:
+    material: LIME_STAINED_GLASS_PANE
+    name: "<gradient:#00B4DB:#0083B0><b>KLIK UNTUK ENHANCE</b></gradient>"
+    lore:
+      - " "
+      - "<gray>Peluang Berhasil: <green>{chance}%</green> <dark_gray>(+{bonus_rate}%)</dark_gray>"
+      - "<gray>Peningkatan Stat: <aqua>+{increase}% Success Rate</aqua>"
+      - "<gray>Total Stat Akhir: <yellow>{result_stat}%</yellow>"
+      - " "
+      - "<gray>Biaya: <yellow>{price} {currency}</yellow>"
+      - " "
+      - "<yellow>Klik untuk memproses!</yellow>"
+
+  # ==========================================
+  #           KONFIGURASI SLOT
+  # ==========================================
+  slots:
+    main: 11
+    material: 13
+    result: 15
+    
+    placeholders:
+      main:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "<gradient:#00B4DB:#0083B0>✨ Main Rune ✨</gradient>"
+        lore:
+          - "<gray>Letakkan Rune yang ingin"
+          - "<gray>di-enhance di sini."
+      material:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "<gradient:#00B4DB:#0083B0>💎 Material 💎</gradient>"
+        lore:
+          - "<gray>Letakkan Material batu"
+          - "<gray>untuk menambahkan sukses rate."
+      result-empty:
+        material: RED_STAINED_GLASS_PANE
+        name: "<red>❌ Masukkan Rune ❌</red>"
+        lore:
+          - "<gray>Slot ini akan berubah jika"
+          - "<gray>Rune sudah dimasukkan."
+      white-scroll:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: "<aqua>📜 White Scroll Slot 📜</aqua>"
+        lore:
+          - "<gray>Letakkan White Scroll di sini"
+          - "<gray>untuk mendapatkan <green>100%</green> sukses."

@@ -1,0 +1,48 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                       CyayoRune - Sounds                                     |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+sounds:
+  # Saat membuka menu utama
+  open-menu:
+    sound: BLOCK_CHEST_OPEN
+    volume: 1.0
+    pitch: 1.0
+    enabled: true
+
+  # Saat meletakkan item ke slot GUI
+  put-item:
+    sound: UI_BUTTON_CLICK
+    volume: 1.0
+    pitch: 1.2
+    enabled: true
+
+  # Saat mengambil item kembali dari GUI
+  take-item:
+    sound: UI_BUTTON_CLICK
+    volume: 1.0
+    pitch: 0.8
+    enabled: true
+
+  # Saat proses Enhance/Combine BERHASIL
+  success:
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+    enabled: true
+
+  # Saat proses Enhance/Combine GAGAL
+  failure:
+    sound: ENTITY_VILLAGER_NO
+    volume: 1.0
+    pitch: 1.0
+    enabled: true
+
+  # Saat uang tidak cukup
+  insufficient-funds:
+    sound: BLOCK_NOTE_BLOCK_BASS
+    volume: 1.0
+    pitch: 0.5
+    enabled: true

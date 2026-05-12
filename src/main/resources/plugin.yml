@@ -1,0 +1,18 @@
+name: CyayoRune
+version: 1.0
+main: id.seria.cyayorune.CyayoRune
+api-version: 1.21
+author: Cyayo
+depend: [MythicLib, MMOItems, ExcellentEconomy]
+softdepend: [PlaceholderAPI]
+commands:
+  cyayoitemcombine:
+    description: Main command for Cyayo Item Upgrader/Combiner
+    aliases: [cic, rune]
+permissions:
+  cyayoitemcombine.admin:
+    description: Admin permission for Cyayo Item Upgrader/Combiner (Reload and open GUI for others)
+    default: op
+  cyayoitemcombine.use:
+    description: Permission for players to open the GUI for themselves
+    default: false

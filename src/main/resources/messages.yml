@@ -1,0 +1,27 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                     CyayoRune - Messages                                     |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+prefix: "<gradient:#00B4DB:#0083B0><b>CyayoRune</b></gradient> <dark_gray>»</dark_gray> "
+
+general:
+  no-permission: "<red>Kamu tidak memiliki izin untuk melakukan ini!</red>"
+  only-player: "<red>Command ini hanya bisa digunakan oleh player!</red>"
+  reload: "<green>Konfigurasi berhasil dimuat ulang!</green>"
+  player-not-found: "<red>Player {player} tidak ditemukan!</red>"
+
+enhance:
+  invalid-items: "<red>Item ini tidak dapat di-enhance!</red>"
+  insufficient-funds: "<red>Kamu butuh {price} {currency} untuk enhance!</red>"
+  success: "<green>Berhasil! {item_name} telah ditingkatkan!</green>"
+  failed: "<red>Gagal! Material hancur!</red>"
+  gui-opened: "<green>Membuka menu enhance untuk {player}!</green>"
+
+combine:
+  invalid-items: "<red>Item ini tidak dapat di-combine!</red>"
+  insufficient-funds: "<red>Kamu butuh {price} {currency} untuk combine!</red>"
+  success: "<green>Berhasil! Kamu mendapatkan {item_name}!</green>"
+  failed: "<red>Gagal! Bahan-bahan hancur!</red>"
+  gui-opened: "<green>Membuka menu combine untuk {player}!</green>"

@@ -1,0 +1,216 @@
+﻿# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                       CyayoRune - Items                                      |
+# |                                      (enhance Recipes)                                       |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+# enhance digunakan untuk meningkatkan stat "Success Rate" pada item yang sama.
+
+# ==========================================
+#           DAFTAR RESEP enhance
+# ==========================================
+recipes:
+
+  # ------------------------------------------
+  # Luck Rune
+  # ------------------------------------------
+  luck-rune-i-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_I
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: LUCK_RUNE_I
+        amount: 1
+        success-rate: 90.0
+        success-increase: 5.0
+        price: 500
+        currency: "gins"
+
+  luck-rune-ii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_II
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: LUCK_RUNE_II
+        amount: 1
+        success-rate: 70.0
+        success-increase: 5.0
+        price: 1000
+        currency: "gins"
+
+  luck-rune-iii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: LUCK_RUNE_III
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: LUCK_RUNE_III
+        amount: 1
+        success-rate: 50.0
+        success-increase: 5.0
+        price: 1500
+        currency: "gins"
+
+  # ------------------------------------------
+  # Strength Rune
+  # ------------------------------------------
+  strength-rune-i-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_I
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: STRENGTH_RUNE_I
+        amount: 1
+        success-rate: 90.0
+        success-increase: 5.0
+        price: 500
+        currency: "gins"
+
+  strength-rune-ii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_II
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: STRENGTH_RUNE_II
+        amount: 1
+        success-rate: 70.0
+        success-increase: 5.0
+        price: 1000
+        currency: "gins"
+
+  strength-rune-iii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: STRENGTH_RUNE_III
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: STRENGTH_RUNE_III
+        amount: 1
+        success-rate: 50.0
+        success-increase: 5.0
+        price: 1500
+        currency: "gins"
+
+  # ------------------------------------------
+  # Attack Damage Rune
+  # ------------------------------------------
+  attack-damage-i-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_I
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: ATTACK_DAMAGE_I
+        amount: 1
+        success-rate: 90.0
+        success-increase: 5.0
+        price: 500
+        currency: "gins"
+
+  attack-damage-ii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_II
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: ATTACK_DAMAGE_II
+        amount: 1
+        success-rate: 70.0
+        success-increase: 5.0
+        price: 1000
+        currency: "gins"
+
+  attack-damage-iii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_DAMAGE_III
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: ATTACK_DAMAGE_III
+        amount: 1
+        success-rate: 50.0
+        success-increase: 5.0
+        price: 1500
+        currency: "gins"
+
+  # ------------------------------------------
+  # Attack Speed Rune
+  # ------------------------------------------
+  attack-speed-i-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_I
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: ATTACK_SPEED_I
+        amount: 1
+        success-rate: 90.0
+        success-increase: 5.0
+        price: 500
+        currency: "gins"
+
+  attack-speed-ii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_II
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: ATTACK_SPEED_II
+        amount: 1
+        success-rate: 70.0
+        success-increase: 5.0
+        price: 1000
+        currency: "gins"
+
+  attack-speed-iii-enhance:
+    base-item:
+      mmoitem:
+        type: GEM_STONE
+        id: ATTACK_SPEED_III
+    max-success: 100.0
+    materials:
+      - mmoitem:
+          type: GEM_STONE
+          id: ATTACK_SPEED_III
+        amount: 1
+        success-rate: 50.0
+        success-increase: 5.0
+        price: 1500
+        currency: "gins"
