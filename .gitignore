@@ -1,17 +1,4 @@
-/libs/
-/lib/
-/target/
-/output/
-/target_v2/
-
-# IDE files
-.idea/
-*.iml
-.vscode/
-.settings/
-.project/
-.classpath/
-
-# System files
-Thumbs.db
-.DS_Store
+lib/
+libs/
+target/
+output/

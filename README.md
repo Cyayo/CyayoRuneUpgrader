@@ -42,13 +42,12 @@ cyayoitemcombine.use         > Izin dasar untuk menggunakan menu CIC.
 cyayoitemcombine.admin       > Akses penuh (Reload & Membuka GUI orang lain).
 ```
 
-```text
-=========================================
-            PLUGIN FEATURES
-=========================================
-✨ Interactive GUI - Tampilan menu yang intuitif dan mudah dipahami.
-🎲 Success Rate System - Atur peluang keberhasilan di setiap recipe.
-📜 White Scroll Protection - Fitur perlindungan item agar tidak gagal.
-💎 MMOItems Support - Menggunakan sistem item dari MMOItems.
-💰 Economy Integrated - Terintegrasi penuh dengan ExcellentEconomy.
-🚀 High Performance - Ringan dan tidak membebani server.
+### 🚀 Advanced Features
+- 🔮 **Rune Synthesis** - Sistem penggabungan rune yang interaktif dan visual.
+- 💰 **Economy Based** - Integrasi biaya menggunakan ExcellentEconomy API.
+- 🛡️ **Stat Enhancement** - Menambahkan stat unik ke dalam item MMOItems milikmu.
+- ✨ **Custom Effects** - Efek visual dan suara saat proses upgrade berhasil atau gagal.
+
+---
+
+Made with ❤️ by **Cyayo Cressiel**
